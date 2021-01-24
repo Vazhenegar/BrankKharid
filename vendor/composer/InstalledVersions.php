@@ -24,12 +24,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => 'v8.5.9',
-    'version' => '8.5.9.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'e93dc4c51df3c4abe4446061d786cbf5b7c23fe4',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -463,12 +463,12 @@ private static $installed = array (
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => 'v8.5.9',
-      'version' => '8.5.9.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'e93dc4c51df3c4abe4446061d786cbf5b7c23fe4',
     ),
     'laravel/sail' => 
     array (
@@ -514,6 +514,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3',
+    ),
+    'livewire/livewire' => 
+    array (
+      'pretty_version' => 'v2.3.8',
+      'version' => '2.3.8.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c661e295428b2baaff04320d0a9424db5ca72be5',
     ),
     'mockery/mockery' => 
     array (
@@ -783,8 +792,8 @@ private static $installed = array (
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '1.0.0',
+        0 => '1.0.0',
+        1 => '1.0',
       ),
     ),
     'psr/simple-cache' => 
